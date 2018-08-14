@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "rules": {
+      "react/jsx-one-expression-per-line": "off",
+      "arrow-body-style": "off"
+    }
+}
