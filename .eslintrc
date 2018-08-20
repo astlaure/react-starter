@@ -7,5 +7,12 @@
     "rules": {
       "react/jsx-one-expression-per-line": "off",
       "arrow-body-style": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "webpack": {
+          "config": "./config/webpack.resolve.js"
+        }
+      }
     }
 }

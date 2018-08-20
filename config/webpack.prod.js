@@ -1,4 +1,6 @@
-const webpack = require('webpack');
+/* eslint import/no-extraneous-dependencies: 0 */
+
+const webpack = require('webpack'); /* eslint no-unused-vars: 0 */
 const MiniCssWebpackPlugin = require('mini-css-extract-plugin');
 
 /**
